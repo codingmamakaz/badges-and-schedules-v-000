@@ -14,7 +14,7 @@ end
 
 def assign_rooms(names)
   badge_messages = []
-  counter = 0  
+  counter = 0
   names.each do |badge|
     counter += 1
     badge_messages.push("Hello, my name is #{badge}.  You'll be assigned to room #{counter}!")
