@@ -1,3 +1,3 @@
 def badge_maker(name)
-  puts name
+  "Hello, my name is #{name}."
 end
